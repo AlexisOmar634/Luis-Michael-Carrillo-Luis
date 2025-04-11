@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ixtlán del Río, Nayarit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #00695c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #004d40;
+      color: white;
+    }
+    .imagen-container {
+      display: inline-block;
+      overflow: hidden; /* Ocultar la parte de la imagen que se expande fuera del contenedor */
+      width: 100%;
+      max-width: 600px; /* Limita el tamaño de la imagen */
+      margin: auto;
+    }
+    .imagen-expandible {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease; /* Transición suave */
+    }
+    .imagen-container:hover .imagen-expandible {
+      transform: scale(1.2); /* Escala la imagen al 120% cuando el ratón pasa por encima */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ixtlán del Río</h1>
+    <p>Un hermoso rincón del estado de Nayarit, México</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Acerca de Ixtlán</h2>
+      <p>Ixtlán del Río es una ciudad del estado de Nayarit, ubicada en la región sur del estado. Es conocida por su historia prehispánica, sus paisajes montañosos y su cercanía con importantes zonas arqueológicas como Los Toriles.</p>
+    </section>
+
+    <section>
+      <h2>Atractivos turísticos</h2>
+      <ul>
+        <li>Zona arqueológica de Los Toriles</li>
+        <li>Templo de Santo Santiago Apóstol</li>
+        <li>Parque Ecológico El Sabino</li>
+        <li>Balnearios y aguas termales</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Gastronomía</h2>
+      <p>La gastronomía de Ixtlán del Río incluye platillos típicos como el pozole, las carnitas, los tamales y las tradicionales nieves artesanales que se venden en la plaza principal.</p>
+    </section>
+
+    <section>
+      <h2>Ubicación</h2>
+      <p>Se localiza en el sur del estado de Nayarit, cerca de los límites con Jalisco, sobre la carretera federal 15. Es un punto importante de conexión entre la costa del Pacífico y el centro del país.</p>
+    </section>
+
+    <section>
+      <h2>Imagen Representativa</h2>
+      <div class="imagen-container">
+        <img src="ixtlan.jpg" alt="Ixtlán del Río" class="imagen-expandible">
+      </div>
+      <p>Imagen representativa de Ixtlán del Río, mostrando uno de sus hermosos paisajes.</p>
+    </section>
+  </main>
+
+
+</body>
+</html>
